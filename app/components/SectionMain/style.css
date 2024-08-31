@@ -1,0 +1,180 @@
+.apple_leaf {
+    transform: translateX(150%);
+    animation: apple_leaf 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes apple_leaf {
+    0% {
+      transform: translateX(150%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .apple {
+    transform: translateX(100%) rotate(0deg);
+    animation: slideIn 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%) rotate(0deg);
+    }
+  
+    100% {
+      transform: translateX(0) rotate(-360deg);
+    }
+  }
+  
+  .big_leaf {
+    transform: translateX(-100%) rotate(0deg);
+    animation: big_leaf 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes big_leaf {
+    0% {
+      transform: translateX(-100%) rotate(0deg);
+    }
+  
+    100% {
+      transform: translateX(0) rotate(360deg);
+    }
+  
+  }
+  
+  .small_leaf {
+    transform: translateX(-100%);
+    animation: small_leaf 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes small_leaf {
+    0% {
+      transform: translateX(-100%)
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .brown_leaf {
+    transform: translateX(-200%);
+    animation: brown_leaf 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes brown_leaf {
+    0% {
+      transform: translateX(-200%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .bambo {
+    transform: translateY(-100%);
+    animation: bambo 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes bambo {
+    0% {
+      transform: translateY(-100%);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .pineapple {
+    transform: translateX(-150%) rotate(0deg);
+    animation: pineapple 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes pineapple {
+    0% {
+      transform: translateX(-150%) rotate(0deg);
+    }
+  
+    100% {
+      transform: translateX(0) rotate(360deg);
+    }
+  }
+  
+  .cherry {
+    transform: translateY(-400%);
+    animation: cherry 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes cherry {
+    0% {
+      transform: translateY(-400%);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+  .black_berry {
+    transform: translateY(-600%);
+    animation: black_berry 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes black_berry {
+    0% {
+      transform: translateY(-600%);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+  .right_cherry{
+    transform: translateY(-600%);
+    animation: right_cherry 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes right_cherry {
+    0% {
+      transform: translateY(-600%);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .pink_leaf{
+    transform: translateX(300%);
+    animation: pink_leaf 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes pink_leaf{
+    0%{
+      transform: translateX(300%);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
+  
+  .nut{
+    transform: translateY(100%) rotate(0deg);
+    animation: nut 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes nut{
+    0%{
+      transform: translateY(100%) rotate(0deg);
+    }
+    100%{
+      transform: translateY(0) rotate(360deg);
+    }
+  }
